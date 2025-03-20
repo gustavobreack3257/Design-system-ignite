@@ -90,7 +90,6 @@
     "tr46": "^1.0.1",
     "tree-kill": "^1.2.2",
     "ts-interface-checker": "^0.1.13",
-    "typescript": "^5.8.2",
     "webidl-conversions": "^4.0.2",
     "whatwg-url": "^7.1.0",
     "which": "^2.0.2",
@@ -98,7 +97,8 @@
     "wrap-ansi-cjs": "^7.0.0"
   },
   "devDependencies": {
-    "tsup": "^8.4.0"
+    "tsup": "^8.4.0",
+    "typescript": "^5.1.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
