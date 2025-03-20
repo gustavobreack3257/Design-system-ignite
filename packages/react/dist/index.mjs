@@ -1,4 +1,4 @@
-// ../tokens/src/colors.ts
+// ../tokens/dist/index.mjs
 var colors = {
   white: "#FFF",
   black: "#000",
