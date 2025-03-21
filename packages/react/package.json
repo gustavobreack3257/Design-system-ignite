@@ -5,8 +5,8 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
@@ -16,13 +16,16 @@
     "@ignite-ui/eslint-config": "*",
     "@ignite-ui/tokens": "*",
     "@ignite-ui/ts-config": "*",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "react": "^19.0.0",
     "tsup": "^8.4.0",
     "typescript": "^5.1.6"
   },
   "dependencies": {
     "bundle-require": "^4.2.1",
     "chokidar": "^3.6.0",
-    "esbuild": "^0.17.19",
+    "esbuild": "^0.25.1",
     "lilconfig": "^2.1.0",
     "picomatch": "^2.3.1",
     "postcss-load-config": "^3.1.4",
