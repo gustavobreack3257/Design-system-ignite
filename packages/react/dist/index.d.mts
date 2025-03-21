@@ -1,5 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-declare function App(): React.JSX.Element
+declare function App(): React.JSX.Element;
 
-export { App }
+export { App };

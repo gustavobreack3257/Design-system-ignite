@@ -23,6 +23,7 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@stitches/react": "^1.2.8",
     "bundle-require": "^4.2.1",
     "chokidar": "^3.6.0",
     "esbuild": "^0.25.1",
