@@ -2,7 +2,6 @@
   "name": "@ignite-ui/docs",
   "version": "1.0.0",
   "type": "module",
-
   "scripts": {
     "dev": "vite",
     "build-vite": "tsc -b && vite build",
@@ -12,9 +11,12 @@
     "dev-storybook": "storybook dev -p 6006"
   },
   "keywords": [],
-   "author": "",
-   "license": "MIT",
+  "author": "",
+  "license": "MIT",
   "dependencies": {
+    "@ignite-ui/react": "*",
+     "@ignite-ui/tokens": "*",
+     "@ignite-ui/eslint-config": "*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -28,6 +30,7 @@
     "@storybook/react": "^8.6.7",
     "@storybook/react-vite": "^8.6.7",
     "@storybook/test": "^8.6.7",
+    "@types/node": "^22.13.11",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
